@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "anaspiringdesigner.diary",
+  "name": "Diary",
+  "version": "0.1.0",
+  "author": "Vamsi Madhav",
+  "license": "MIT",
+  "description": "Shell IPC bridge for the diary CLI, plus Omarchy menu entries for writing, editing, opening, and rebuilding your journal.",
+  "homepage": "https://github.com/Anaspiringdesigner/omarchy-diary",
+  "repository": "https://github.com/Anaspiringdesigner/omarchy-diary",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}

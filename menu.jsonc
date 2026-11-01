@@ -1,0 +1,7 @@
+  // Diary: entries are inserted at the top of the user menu extension.
+  "diary": {"icon":"󰎞","label":"Diary","aliases":["diary","journal"]},
+  "diary.new": {"icon":"󰎞","label":"New Entry","action":"omarchy-shell diary newEntry"},
+  "diary.edit": {"icon":"󰏫","label":"Edit This Month","action":"omarchy-shell diary editMonth"},
+  "diary.open": {"icon":"󰈦","label":"Open This Month's PDF","action":"omarchy-shell diary openPdf"},
+  "diary.build": {"icon":"󰁯","label":"Rebuild PDF","action":"omarchy-shell diary buildPdf"},
+  "diary.list": {"icon":"󰉋","label":"List Months","action":"omarchy-shell diary listMonths"},
