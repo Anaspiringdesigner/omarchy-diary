@@ -15,6 +15,7 @@ fi
 
 if omarchy plugin list --json 2>/dev/null | grep -q "\"id\":\"${plugin_id}\""; then
   echo "Plugin ${plugin_id} is already installed."
+  omarchy plugin enable "${plugin_id}" >/dev/null 2>&1 || true
 elif [[ $local_install == true ]]; then
   target="${HOME}/.config/omarchy/plugins/${plugin_id}"
   mkdir -p "${target}"
